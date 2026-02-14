@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For You ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section id="secret" class="screen active">
+  <h1>🔐 Secret Entry</h1>
+  <p>Hint: The day we first felt special ❤️</p>
+  <input type="password" id="codeInput" placeholder="Enter secret code">
+  <button id="unlock">Unlock 💘</button>
+  <p id="error"></p>
+</section>
+
+<section id="loading" class="screen">
+  <h1>Hey My Love ❤️</h1>
+  <p>This website is made only for you</p>
+</section>
+
+<section id="question" class="screen">
+  <h2 id="questionText">Will you be my Valentine Damayanti? 💘</h2>
+  <div class="buttons">
+    <button id="yes">YES 😍</button>
+    <button id="no">NO 😒</button>
+  </div>
+</section>
+
+<section id="celebration" class="screen">
+  <h1>YAYYYY ❤️😍</h1>
+  <h2>You are my Valentine 💖</h2>
+  <p>Ab toh mana bhi nahi kar sakti 😌</p>
+  
+  <div class="gallery">
+    <div class="gallery-track" id="galleryTrack"></div>
+  </div>
+
+  <button id="surpriseBtn">Click for a Surprise 🎁</button>
+  <button id="surprise1Btn" style="display: none;">Surprise 1 🎉</button>
+  <button id="surprise2Btn" style="display: none;">Surprise 2 🌟</button>
+</section>
+
+<section id="surprise1" class="screen">
+  <div id="lilyText">Some pretty lily for my beautiful girl 🌸</div>
+  <img id="lilyImage" src="assets/photos/pink_lily.jpg" alt="Pretty lily flowers">
+</section>
+
+<!-- NEW SURPRISE 2 - ENVELOPE -->
+<section id="surprise2" class="screen">
+  <div class="envelope-container">
+    <div class="envelope" id="envelope">
+      <div class="flap"></div>
+      <div class="envelope-body"></div>
+      
+      <div class="paper">
+        <div class="note-scroll">
+          <div class="love-note">
+            <h3>My Dearest Damayanti ❤️</h3>
+            <p>From the moment I met you, my heart knew it had found its home.</p>
+            <p>Your smile makes my whole world brighter.</p>
+
+            <p>First of all, I keep thinking about all our memories.</p>
+            <p>The way we fight over the smallest things… and then five minutes
+               later we miss each other.</p>
+            <p>Our random calls, laughing at the dumbest jokes, getting annoyed for no reason, 
+              and then making up like nothing ever happened.</p>
+            <p>We’re not perfect.</p>
+            <p>We argue. We both have egos sometimes.</p>
+            <p> sometimes I’m immature.</p>
+            <p>But after every fight, I realize one thing I don’t want a
+               life where you’re not in it.</p>
+            <p>And there’s something important I need to say.</p>
+            <p>In our last fight, I was wrong.</p>
+            <p>I tried to manipulate you. I was being toxic.</p>
+            <p>That’s not the kind of person I want to be, 
+              especially not with you.</p>
+            <p>You deserve to feel safe, loved, and respected not pressured 
+              or emotionally hurt.</p>
+            <p>I’m truly sorry. No excuses.</p>
+            <p>I’m not perfect, but I want to grow. I want to be better for you and for us.</p>
+            <p>I love you so much, my pretty little baby ❤️</p>
+            <p>You’re not just a habit in my life you’re my choice.</p>
+            <p>And I choose you, every single day.</p>
+            <p>Happy Valentine's Day, my love. Thank you for being mine.</p>
+            <p class="signature">Forever yours,<br>Yash 💕</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div id="heartsContainer"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
